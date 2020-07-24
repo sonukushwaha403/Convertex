@@ -34,8 +34,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
         ImageView imageView=(ImageView) findViewById(R.id.imageView);
-        imageView.animate().rotationBy(360*8).setDuration(2000);
+        imageView.animate().rotationBy(360*9).setDuration(2000);
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
